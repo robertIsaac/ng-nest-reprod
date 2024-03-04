@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "postinstall": "npx playwright install --with-deps"
+    "postinstall": "npx playwright install --with-deps",
+    "start": "nx run-many -t serve"
   },
   "private": true,
   "dependencies": {
